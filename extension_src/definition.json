@@ -1,0 +1,33 @@
+{
+    "integrationUser": {
+        "systemAdmin": false
+    },
+    "tiles": [
+        {
+            "sampleData": {
+                "title": "sampletile-list tile-list",
+                "contents": [
+                    {
+                        "text": "Initial text to be replaced"
+                    }
+                ],
+                "config": {
+                    "listStyle": "contentList"
+                }
+            },
+            "displayName": "sampletile-list",
+            "name": "sampletile-list",
+            "description": "sampletile-list",
+            "style": "LIST",
+            "icons": {
+                "16": "https://developer.jivesoftware.com/DeveloperAssets/images/icons/jivedev-xsmall.png",
+                "48": "https://developer.jivesoftware.com/DeveloperAssets/images/icons/jivedev-small.png",
+                "128": "https://developer.jivesoftware.com/DeveloperAssets/images/icons/jivedev-med.png"
+            },
+            "action": "http://localhost/sampletile-list/action?ts=1493708859359",
+            "config": "http://localhost/sampletile-list/configure?ts=1493708859359",
+            "unregister": "http://localhost/unregister",
+            "register": "http://localhost/registration"
+        }
+    ]
+}
